@@ -1,0 +1,28 @@
+{
+  "name": "@geocortex/workflow-activity-sdk",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {},
+  "devDependencies": {
+    "@types/arcgis-js-api": "3.22.0",
+    "@types/react": "15.6.8",
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "requirejs": "2.3.5",
+    "rimraf": "2.6.2",
+    "serve-index": "1.9.1",
+    "tslib": "1.8.1",
+    "typescript": "~3.4.5",
+    "uuid": "3.1.0"
+  },
+  "scripts": {
+    "activity": "node .build/activity",
+    "build": "tsc -p ./",
+    "clean": "rimraf dist",
+    "start": "node .build/tsc -watch -p ./",
+    "watch": "tsc -watch -p ./"
+  }
+}

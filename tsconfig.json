@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "umd",
+        "moduleResolution": "node",
+        "removeComments": false,
+        "stripInternal": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "target": "es5",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "lib": ["es5", "dom", "scripthost", "es2015.promise", "es2015.iterable"],
+        "outDir": "dist",
+        "importHelpers": true,
+        "skipLibCheck": true
+    },
+    "include": ["libs/**/*.d.ts", "src/**/*.ts", "src/**/*.tsx"]
+}
